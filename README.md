@@ -1,9 +1,9 @@
 # Java-Playlist-Simulator
 //Java project idea — simple, interactive, and demonstrates solid OOP and logic concepts.
 
-import java.util.*;
+    import java.util.*;
 
-class Song {
+    class Song {
     String title;
     String artist;
     int duration; // in seconds
@@ -17,9 +17,9 @@ class Song {
     void play() {
         System.out.println("🎵 Now Playing: " + title + " by " + artist + " (" + duration + " sec)");
     }
-}
+    }
 
-public class PlaylistSimulator {
+    public class PlaylistSimulator {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         ArrayList<Song> playlist = new ArrayList<>();
